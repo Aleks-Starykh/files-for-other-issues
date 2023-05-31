@@ -1,0 +1,30 @@
+~~1685556697179~~1~~0000000000003430~~AssetProcessor~~Request started builder [C6954FB78E2C4C2A9FB70A90CBD8345B] task (process) dlc/PopcornFX/Content/Explosions/Explosion_Radial.pkfx 
+~~1685556700051~~3~~0000000000003430~~AssetBuilder~~PopcornFX Assertion Failed:
+~~1685556700055~~3~~0000000000003430~~AssetBuilder~~<an_o3de-project>\Gems\PopcornFX\Code\Source\Integration\Managers\WindManager.cpp(70)
+~~1685556700057~~3~~0000000000003430~~AssetBuilder~~	PopcornFX::_CustomRangeBuild_SceneSampleWindField(...)
+~~1685556700059~~3~~0000000000003430~~AssetBuilder~~Message:  op.m_Inputs.Count() == 2
+~~1685556700060~~3~~0000000000003430~~AssetBuilder~~Failed:   op.m_Inputs.Count() == 2
+~~1685556700061~~3~~0000000000003430~~AssetBuilder~~Expanded: op.m_Inputs.Count() == 2
+~~1685556700062~~3~~0000000000003430~~AssetBuilder~~CallContext:
+~~1685556700063~~3~~0000000000003430~~AssetBuilder~~    - Asset: Content/Explosions/Explosion_Radial.pkfx
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~AssetBuilder: AllocatorManager before: allocatedBytes = 83030460 capacityBytes = 8589934592
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~AssetBuilder: Running processJob task
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~AssetBuilder: Source = <an_o3de-project>/dlc/PopcornFX/Content/Explosions/Explosion_Radial.pkfx
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~AssetBuilder: Platform = pc
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~Info: [PopcornFX] Processing asset '<an_o3de-project>/dlc/PopcornFX/Content/Explosions/Explosion_Radial.pkfx'
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~Info: [PopcornFX] Asset temp bake directory: '<an_o3de-project>/user/AssetProcessorTemp/JobTemp-GlmCLQ'
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~[2][O3DE]> FileSystemController_O3DE Exists FAIL 'Config/AssetBaker.pkcf' pathNotVirtual:1
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~Info: [PopcornFX] Baking effect 'Content/Explosions/Explosion_Radial.pkfx'
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~[3][O3DE]> !! PopcornFX Assertion failed !!
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~File       : <an_o3de-project>\Gems\PopcornFX\Code\Source\Integration\Managers\WindManager.cpp(70)
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~Function   : PopcornFX::_CustomRangeBuild_SceneSampleWindField(...)
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~Message    : op.m_Inputs.Count() == 2
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~Condition  : op.m_Inputs.Count() == 2
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~Expanded   : op.m_Inputs.Count() == 2
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~ThreadID   : 1
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~AssertNum  : 0
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~Info: [PopcornFX] Bake OK
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~AssetBuilder: AllocatorManager after: allocatedBytes = 83030780 capacityBytes = 8589934592; allocated change = 320
+~~1685557247935~~1~~0000000000003430~~AssetBuilder~~S: 0 errors, 0 warnings
+~~1685557248887~~3~~0000000000003430~~AssetBuilder~~    - Bake asset: Content/Explosions/Explosion_Radial.pkfx
+~~1685557248889~~1~~0000000000003430~~AssetProcessor~~Request stopped builder [C6954FB78E2C4C2A9FB70A90CBD8345B] task (process) dlc/PopcornFX/Content/Explosions/Explosion_Radial.pkfx 

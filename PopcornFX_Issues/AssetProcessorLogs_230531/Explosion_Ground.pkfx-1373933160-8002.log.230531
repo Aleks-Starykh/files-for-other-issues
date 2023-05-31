@@ -1,0 +1,60 @@
+~~1685556695417~~1~~00000000000063E4~~AssetProcessor~~Request started builder [43C62AF1410A435E8CA6FF5B74190873] task (process) dlc/PopcornFX/Content/Explosions/Explosion_Ground.pkfx 
+~~1685556698662~~3~~00000000000063E4~~AssetBuilder~~PopcornFX Assertion Failed:
+~~1685556698666~~3~~00000000000063E4~~AssetBuilder~~<an_o3de-project>\Gems\PopcornFX\Code\Source\Integration\Managers\WindManager.cpp(70)
+~~1685556698668~~3~~00000000000063E4~~AssetBuilder~~	PopcornFX::_CustomRangeBuild_SceneSampleWindField(...)
+~~1685556698669~~3~~00000000000063E4~~AssetBuilder~~Message:  op.m_Inputs.Count() == 2
+~~1685556698671~~3~~00000000000063E4~~AssetBuilder~~Failed:   op.m_Inputs.Count() == 2
+~~1685556698672~~3~~00000000000063E4~~AssetBuilder~~Expanded: op.m_Inputs.Count() == 2
+~~1685556698673~~3~~00000000000063E4~~AssetBuilder~~CallContext:
+~~1685557124833~~3~~00000000000063E4~~AssetBuilder~~    - Asset: Content/Explosions/Explosion_Ground.pkfxPopcornFX Assertion Failed:
+~~1685557124835~~3~~00000000000063E4~~AssetBuilder~~<an_o3de-project>\Gems\PopcornFX\Code\Source\Integration\Managers\WindManager.cpp(70)
+~~1685557124836~~3~~00000000000063E4~~AssetBuilder~~	PopcornFX::_CustomRangeBuild_SceneSampleWindField(...)
+~~1685557124837~~3~~00000000000063E4~~AssetBuilder~~Message:  op.m_Inputs.Count() == 2
+~~1685557124838~~3~~00000000000063E4~~AssetBuilder~~Failed:   op.m_Inputs.Count() == 2
+~~1685557124839~~3~~00000000000063E4~~AssetBuilder~~Expanded: op.m_Inputs.Count() == 2
+~~1685557124840~~3~~00000000000063E4~~AssetBuilder~~CallContext:
+~~1685557124841~~3~~00000000000063E4~~AssetBuilder~~    - Asset: Content/Explosions/Explosion_Ground.pkfx
+~~1685557182913~~3~~00000000000063E4~~AssetBuilder~~    - Bake asset: Content/Explosions/Explosion_Ground.pkfxPopcornFX Assertion Failed:
+~~1685557182919~~3~~00000000000063E4~~AssetBuilder~~A:\full-rebuild\source_tree\Runtime\pk_geometrics\include\ge_shapes.h(217)
+~~1685557182920~~3~~00000000000063E4~~AssetBuilder~~	PopcornFX::CShapeDescriptor_Ellipsoid::SetNonUniformScale(...)
+~~1685557182921~~3~~00000000000063E4~~AssetBuilder~~Message:  All(nuScale > 0)
+~~1685557182922~~3~~00000000000063E4~~AssetBuilder~~Failed:   All(nuScale > 0)
+~~1685557182923~~3~~00000000000063E4~~AssetBuilder~~Expanded: All(nuScale > 0)
+~~1685557182923~~3~~00000000000063E4~~AssetBuilder~~CallContext:
+~~1685557182924~~3~~00000000000063E4~~AssetBuilder~~    - Asset: Content/Explosions/Explosion_Ground.pkfx
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~AssetBuilder: AllocatorManager before: allocatedBytes = 83179596 capacityBytes = 8589934592
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~AssetBuilder: Running processJob task
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~AssetBuilder: Source = <an_o3de-project>/dlc/PopcornFX/Content/Explosions/Explosion_Ground.pkfx
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~AssetBuilder: Platform = pc
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~Info: [PopcornFX] Processing asset '<an_o3de-project>/dlc/PopcornFX/Content/Explosions/Explosion_Ground.pkfx'
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~Info: [PopcornFX] Asset temp bake directory: '<an_o3de-project>/user/AssetProcessorTemp/JobTemp-AZNZRy'
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~[2][O3DE]> FileSystemController_O3DE Exists FAIL 'Config/AssetBaker.pkcf' pathNotVirtual:1
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~Info: [PopcornFX] Baking effect 'Content/Explosions/Explosion_Ground.pkfx'
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~[3][O3DE]> !! PopcornFX Assertion failed !!
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~File       : <an_o3de-project>\Gems\PopcornFX\Code\Source\Integration\Managers\WindManager.cpp(70)
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~Function   : PopcornFX::_CustomRangeBuild_SceneSampleWindField(...)
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~Message    : op.m_Inputs.Count() == 2
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~Condition  : op.m_Inputs.Count() == 2
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~Expanded   : op.m_Inputs.Count() == 2
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~ThreadID   : 6
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~AssertNum  : 0
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~[3][O3DE]> !! PopcornFX Assertion failed !!
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~File       : <an_o3de-project>\Gems\PopcornFX\Code\Source\Integration\Managers\WindManager.cpp(70)
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~Function   : PopcornFX::_CustomRangeBuild_SceneSampleWindField(...)
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~Message    : op.m_Inputs.Count() == 2
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~Condition  : op.m_Inputs.Count() == 2
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~Expanded   : op.m_Inputs.Count() == 2
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~ThreadID   : 1
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~AssertNum  : 1
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~[3][O3DE]> !! PopcornFX Assertion failed !!
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~File       : A:\full-rebuild\source_tree\Runtime\pk_geometrics\include\ge_shapes.h(217)
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~Function   : PopcornFX::CShapeDescriptor_Ellipsoid::SetNonUniformScale(...)
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~Condition  : All(nuScale > 0)
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~ThreadID   : 1
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~AssertNum  : 2
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~[2][Kernel|ThreadPool]> CLayerGraphFrontend::_AsyncCompileWait is taking too long (1st time) (PopcornFX::Threads::CAbstractPool*)0x00000167FBB923C8
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~Info: [PopcornFX] Bake OK
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~AssetBuilder: AllocatorManager after: allocatedBytes = 83179916 capacityBytes = 8589934592; allocated change = 320
+~~1685557241841~~1~~00000000000063E4~~AssetBuilder~~S: 0 errors, 0 warnings
+~~1685557241841~~3~~00000000000063E4~~AssetBuilder~~    - Bake asset: Content/Explosions/Explosion_Ground.pkfx
+~~1685557241844~~1~~00000000000063E4~~AssetProcessor~~Request stopped builder [43C62AF1410A435E8CA6FF5B74190873] task (process) dlc/PopcornFX/Content/Explosions/Explosion_Ground.pkfx 
